@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "04_Strings\Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booleans", "05_Booleans\Booleans.csproj", "{112003CD-3B70-4B55-B2EE-5A4DF0CBAF7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Conditionals", "06_Conditionals", "{2BFF0791-44F7-49E0-97A2-E6B043E666DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatements", "06_Conditionals\IfStatements\IfStatements.csproj", "{27F3BB72-5B43-4804-8200-B918FB97DC68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,12 @@ Global
 		{112003CD-3B70-4B55-B2EE-5A4DF0CBAF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{112003CD-3B70-4B55-B2EE-5A4DF0CBAF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{112003CD-3B70-4B55-B2EE-5A4DF0CBAF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F3BB72-5B43-4804-8200-B918FB97DC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F3BB72-5B43-4804-8200-B918FB97DC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F3BB72-5B43-4804-8200-B918FB97DC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F3BB72-5B43-4804-8200-B918FB97DC68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27F3BB72-5B43-4804-8200-B918FB97DC68} = {2BFF0791-44F7-49E0-97A2-E6B043E666DF}
 	EndGlobalSection
 EndGlobal
